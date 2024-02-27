@@ -51,7 +51,7 @@ export class HomePage {
       )
       .subscribe({
         next: (res) => {
-          console.log(res);
+          // console.log(res);
 
           this.movies.push(...res.results);
           if (event) {
@@ -60,17 +60,6 @@ export class HomePage {
         }
       });
   }
-
-  // loadMovie(id: string) {
-  //   this.movieService.getMovieDetails(id).subscribe({
-  //     next: (movie) => {
-  //       console.log(movie);
-  //     },
-  //     error: error => {
-  //       console.error(error);
-  //     }
-  //   })
-  // }
 
   loadMore(event: InfiniteScrollCustomEvent) { 
     this.currentPage++;

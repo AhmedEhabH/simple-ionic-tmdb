@@ -23,7 +23,7 @@ export class DetailsPage {
   set id(movieId: string) {
     this.movieService.getMovieDetails(movieId).subscribe({
       next: (movie: MovieResult) => {
-        console.log(movie);
+        // console.log(movie);
 
         this.movie.set(movie);
 
