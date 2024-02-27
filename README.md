@@ -1,8 +1,13 @@
 # TMDB Ionic App
-### Simaple Application Using Ionic With Angular Standalone
+## Simaple Application Using Ionic With Angular Standalone
+### To Run
+* Clone The repo
+* in terminal write ```npm i``` then press enter
+* in terminal write ```ionic serve``` then press enter
 #### Consist of
 * Main page: Show All movies from TMDB API
 * Movie Details: Show Details for each movie
+
 ---
 ### Screanshots
 
